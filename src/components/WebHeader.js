@@ -9,10 +9,10 @@ export class WebHeader extends Component {
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/portfolio">Portfolio</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/games">Games</a></li>
-                        <li><a href="/objective">Objective</a></li>
+                        <li><a href="/portfolio.html">Portfolio</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
+                        <li><a href="/games.html">Games</a></li>
+                        <li><a href="/objective.html">Objective</a></li>
                     </ul>
                 </nav>
             </header>
