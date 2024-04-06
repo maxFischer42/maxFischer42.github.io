@@ -6,7 +6,7 @@ import data from './SectionInfo';
 export class Header extends Component {
     render() {
         var tags = data.sections.map((section) =>
-            <li>   
+            <li className='header_item'>   
                 <Link
                     className="pather"
                     activeClass="active"
@@ -21,13 +21,11 @@ export class Header extends Component {
         );
 
       return (
-        <nav id="header">
-          <div >
-            <ul >                                 
+          <div className='header_content'>
+            <ul className='header_list'>                                 
                 {tags}
             </ul>
           </div>
-        </nav>
       );
     }
   }

@@ -6,6 +6,7 @@ import { Skills } from "./SkillsSection";
 import { Education } from "./EducationSection";
 import { CurrentProjects } from "./CurrentProject";
 import { PastProjects } from "./PastProjects";
+import { Contact } from "./ContactSection";
 import data from './SectionInfo'
 
 function getSection(id) {
@@ -18,10 +19,12 @@ function getSection(id) {
             return <Skills/>
         case "Education":
             return <Education/>
-        case "CurrentProjects":
+        case "Current Projects":
             return <CurrentProjects/>
-        case "PastProjects":
+        case "Past Projects":
             return <PastProjects/>
+        case "Contact":
+            return <Contact/>
     }
 }
 

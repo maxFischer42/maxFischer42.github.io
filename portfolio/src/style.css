@@ -7,32 +7,43 @@ body {
     
 }
 
+.header_list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
 .pather:hover {
     text-decoration: underline;
     background-color: darkviolet;
 }
 
-.wrapper {
-
-}
-
 .sidebar {
     z-index: 1;
     position: fixed;  
-    float: right;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
 }
 
 .sidebar .background {
     background-color: lightslategray;
-    height: 250px;
+    display: flex;
 }
 
-.icon {
-    height: 50px;
-    
+.sidebar .button {
+    position:initial;
 }
 
+.sidebar .icon {
+    font-size: larger;
+}
 
 .experience_section {
     display: flex;
@@ -72,4 +83,17 @@ body {
 
 .info_card .school_date {
     float: right;
+}
+
+.skill_table {
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skill_item {
+    padding: 4px;
+    font-size: medium;
 }

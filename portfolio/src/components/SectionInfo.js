@@ -4,7 +4,9 @@ var data = {
     "Skills",
     "Education",
     "Current Projects",
-    "Past Projects"],
+    "Past Projects",
+    "Contact",
+],
 }
 
 export default data;

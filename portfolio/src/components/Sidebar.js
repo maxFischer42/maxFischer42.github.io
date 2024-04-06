@@ -18,7 +18,7 @@ export class SidebarButton extends Component {
         var icon = this.props.status ?  <MenuFoldOutlined className="icon"/> : <MenuUnfoldOutlined className="icon"/>;
         return(
             <div>
-                <Button onClick={this.props.callback}>{icon}</Button>
+                <Button className="button" onClick={this.props.callback}>{icon}</Button>
                 
             </div>
         );
@@ -85,9 +85,11 @@ export class Sidebar extends Component {
     render() {
         var menu = this.state.isOpen ? <SidebarOpen/> : <SidebarClosed/>
         return(
-            <div className="sidebar">
-                {menu}
-                <SidebarButton status={this.state.isOpen} value={!this.state.isOpen} callback={this.updateMenu}/>
+            <div>
+                <div className="sidebar">
+                    {menu}
+                    <SidebarButton status={this.state.isOpen} value={!this.state.isOpen} callback={this.updateMenu}/>
+                </div>
             </div>
         );
     }
