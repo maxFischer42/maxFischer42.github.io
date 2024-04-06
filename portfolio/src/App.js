@@ -3,7 +3,7 @@ import { Page } from './components/Page.js';
 
 function App() {
   return (
-    <div className="App">      
+    <div className="wrapper">      
       <Page/>
     </div>
   );

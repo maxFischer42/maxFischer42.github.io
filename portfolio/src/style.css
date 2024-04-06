@@ -1,0 +1,75 @@
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.pather:hover {
+    text-decoration: underline;
+    background-color: darkviolet;
+}
+
+.wrapper {
+
+}
+
+.sidebar {
+    z-index: 1;
+    position: fixed;  
+    float: right;
+    display: flex;
+}
+
+.sidebar .background {
+    background-color: lightslategray;
+    height: 250px;
+}
+
+.icon {
+    height: 50px;
+    
+}
+
+
+.experience_section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.info_card {
+    width: 1000px;
+    text-align: left;
+}
+
+.info_card .company_title {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.info_card .school_title {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.info_card .company_position {
+    font-size: large;
+    font-style: italic;
+}
+
+.info_card .school_goal {
+    font-size: large;
+    font-style: italic;
+}
+
+.info_card .job_date {
+    float: right;
+}
+
+.info_card .school_date {
+    float: right;
+}

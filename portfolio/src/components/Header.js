@@ -8,6 +8,7 @@ export class Header extends Component {
         var tags = data.sections.map((section) =>
             <li>   
                 <Link
+                    className="pather"
                     activeClass="active"
                     to={section}
                     spy={true}

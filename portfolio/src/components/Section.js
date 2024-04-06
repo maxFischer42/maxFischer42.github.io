@@ -1,5 +1,11 @@
 import React from "react";
 import { Component } from "react";
+import { About } from "./AboutSection"
+import { Experience } from "./ExperienceSection";
+import { Skills } from "./SkillsSection";
+import { Education } from "./EducationSection";
+import { CurrentProjects } from "./CurrentProject";
+import { PastProjects } from "./PastProjects";
 import data from './SectionInfo'
 
 function getSection(id) {
@@ -8,6 +14,14 @@ function getSection(id) {
             return <About/>
         case "Experience":
             return <Experience/>
+        case "Skills":
+            return <Skills/>
+        case "Education":
+            return <Education/>
+        case "CurrentProjects":
+            return <CurrentProjects/>
+        case "PastProjects":
+            return <PastProjects/>
     }
 }
 
@@ -17,81 +31,14 @@ export function Section({ title, subtitle, dark, id }) {
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
         <h1>{title}</h1>
-        {}
             {getSection(id)}
       </div>
     </div>
   );
 }
 
-export class About extends Component {
-    render() {
-        return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
-        );
-    }
-}
 
-export class Experience extends Component {
-    render() {
-        return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
-        );
-    }
-}
 
-export class Skills extends Component {
-    render() {
-        return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
-        );
-    }
-}
 
-export class Education extends Component {
-    render() {
-        return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
-        );
-    }
-}
 
-export class CurrentProjects extends Component {
-    render() {
-        return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
-        );
-    }
-}
 
-export class PastProjects extends Component {
-    render() {
-        return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
-        );
-    }
-}
