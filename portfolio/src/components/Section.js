@@ -7,6 +7,7 @@ import { Education } from "./EducationSection";
 import { CurrentProjects } from "./CurrentProject";
 import { PastProjects } from "./PastProjects";
 import { Contact } from "./ContactSection";
+import { PageInfo  } from "./PageInfo";
 import data from './SectionInfo'
 
 function getSection(id) {
@@ -25,6 +26,8 @@ function getSection(id) {
             return <PastProjects/>
         case "Contact":
             return <Contact/>
+        case "This Page":
+            return <PageInfo/>
     }
 }
 

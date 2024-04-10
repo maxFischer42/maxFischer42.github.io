@@ -5,6 +5,7 @@ import { Section } from './Section';
 import data from './SectionInfo';
 import { ColoredLine } from './Shapes';
 import { Sidebar } from './Sidebar';
+import { PageInfo } from './PageInfo'
 
 export class Page extends Component {
     render() {
@@ -20,12 +21,14 @@ export class Page extends Component {
             </>);
 
         return(
-            <div className="wrapper">
-                <Header />
+            <div>
                 <Sidebar/>
-                {sections}
-                <div>
-                    {data["about"]}
+                <div className="wrapper">
+                    <Header />
+                    {sections}
+                    <div>
+                        {data["about"]}
+                    </div>
                 </div>
             </div>
         )

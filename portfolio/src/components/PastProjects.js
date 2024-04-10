@@ -6,7 +6,7 @@ export class PastProjects extends Component {
     render() {
         return(
             <div>
-                <Project mode="false"/>
+                <Project mode="true"/>
             </div>
         );
     }

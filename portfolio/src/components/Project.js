@@ -13,11 +13,29 @@ export class Project extends Component{
         }
     }
 
+    getDescription(id) {
+        const para = [];
+        for(let i = 0; i < data.projects[id].description.length; i++) {
+            para.push(
+                <p>
+                    {data.projects[id].description[i]}
+                </p>
+            )
+        }
+
+        return(
+            <div>
+                {para}
+            </div>
+        )
+    }
+
     getLinks(id) {
         return(
             <div>
-                {data.projects[id].links.github != null ? <><IoLogoGithub /><a href={data.projects[id].links.github}> Git: </a><br/></> : <></>}
-                {data.projects[id].links.itch != null ? <a href={data.projects[id].links.itch}> Itch: </a> : <></>}
+                {data.projects[id].links.github != null ? <><IoLogoGithub /><a href={data.projects[id].links.github}> Github </a><br/></> : <></>}
+                {data.projects[id].links.itch != null ? <><a href={data.projects[id].links.itch}> Itch.io </a><br/></> : <></>}
+                {data.projects[id].links.ld != null ? <><a href={data.projects[id].links.ld}> Ludum Dare Page </a><br/></> : <></>}
             </div>
         )
     }
@@ -48,16 +66,14 @@ export class Project extends Component{
                 <div>
                 <div className="row">
                     <div className="column_left">
-                    <Card>
-                        <h1 className="project_title">{data.projects[id].name}</h1>
+                    <Card className="card_style" title={<h1 className="card_style">{data.projects[id].name}</h1>}>
                         <h3 className="project_type"> {data.projects[id].type}</h3>
-                        <p className="project_description">{data.projects[id].description}</p>
-                        <Card title="Links"className="project_links">{this.getLinks(id)}</Card><br/>
+                        <p className="project_description">{this.getDescription(id)}</p>
+                        <Card title={<h1 className="card_style_header">Links</h1>}className="card_style">{this.getLinks(id)}</Card><br/>
                     </Card>   
                     </div>             
                     <div className="column_right" ><div className="project_images">{this.getImages(id)}</div></div>                    
                 </div>
-                
                     {ColoredLine("white", 2)}
                 </div>
             );

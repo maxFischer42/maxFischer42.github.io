@@ -5,6 +5,7 @@ var data = {
     "Education",
     "Current Projects",
     "Past Projects",
+    "This Page",
     "Contact",
 ],
 }
