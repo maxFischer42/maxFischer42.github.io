@@ -2,6 +2,7 @@ import React from "react";
 import { Component } from "react";
 import data from "./skills"
 import "../style.css"
+import { Card } from 'antd'
 
 export class SkillTab extends Component {
 
@@ -14,11 +15,11 @@ export class SkillTab extends Component {
         )});
 
         return(
-            <div>
+            <Card title={<h1 className="skill_card_title">{this.props.title}</h1>} className="skill_card">
                 <ul className="skill_table">
                     {skills}
                 </ul>
-            </div>
+            </Card>
         )
     }
 
@@ -28,11 +29,9 @@ export class Skills extends Component {
 
     render() {
         return(
-            <div>
-                <h2>Proficient Skills</h2>                
-                <SkillTab set="skills"/>
-                <h2>Familiar Skills</h2>
-                <SkillTab set="familiar"/>
+            <div className="skill_cards">              
+                <SkillTab set="skills" title="Proficient Skills"/><br/>
+                <SkillTab set="familiar" title="Familiar Skills"/>
             </div>
         );
     }

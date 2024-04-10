@@ -36,7 +36,7 @@ export function Section({ title, subtitle, dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
-        <h1>{title}</h1>
+        <h1 className="section_header">{title}</h1>
             {getSection(id)}
       </div>
     </div>

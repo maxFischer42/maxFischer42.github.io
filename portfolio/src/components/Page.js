@@ -17,19 +17,26 @@ export class Page extends Component {
                     dark={true}
                     id={section}
                 />
+                <br/>
                 {ColoredLine("white", 1)}
+
             </>);
 
         return(
             <div>
+                <div className='gradient_background'/>
+            <div>
                 <Sidebar/>
-                <div className="wrapper">
+                <div className="wrapper">                    
                     <Header />
+                    <h1>Max Fischer Portfolio</h1>
+                    <br/>
                     {sections}
                     <div>
                         {data["about"]}
                     </div>
-                </div>
+                </div>                
+            </div>
             </div>
         )
     }

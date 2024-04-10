@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import data from './SectionInfo';
+import { Button } from "antd"
+import "../style.css"
 
 export class Header extends Component {
     render() {
@@ -15,7 +17,7 @@ export class Header extends Component {
                     smooth={true}
                     offset={-70}
                     duration={100}>
-                        {section}
+                        <Button className='sidebar_button'>{section}</Button>
                 </Link>
             </li>
         );

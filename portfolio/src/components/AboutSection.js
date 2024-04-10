@@ -4,11 +4,11 @@ import { Component } from "react";
 export class About extends Component {
     render() {
         return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
+            <div className="about_content">
+            <h2> Hi, I'm Max Fischer </h2><br/>
+            <h3>I'm a Software Engineer and Game Designer</h3>
+            <h3>This site is a showcase of my skills and work.</h3>
+            </div>
         );
     }
 }

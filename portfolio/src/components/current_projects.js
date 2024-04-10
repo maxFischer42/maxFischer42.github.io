@@ -22,7 +22,7 @@ var data = {
                 past: "false",
                 type: "Game",
                 description: [
-                    "Based on games such as the Bloons TD series and Pokemon Tower Defense, this Tower Defense Game aims to recreate the kind of tower defense games that were popular in the early 2010s.",
+                    "Inspired by flash games such as the Bloons TD series and Pokemon Tower Defense, this Tower Defense Game aims to recreate the kind of tower defense games that were popular in the early 2010s.",
                     "This game is primarily built utilizing C# and the Unity game engine.",
                 ],
                 images: [

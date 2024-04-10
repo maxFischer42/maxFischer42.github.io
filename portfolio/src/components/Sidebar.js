@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import data from './SectionInfo';
 import "../style.css";
-import { Button } from 'antd';
+import { Button, Card } from 'antd';
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons"
 
 export class SidebarButton extends Component {
@@ -30,6 +30,7 @@ export class SidebarOpen extends Component {
     render() {
         var tags = data.sections.map((section) =>
             <li>   
+                
                 <Link
                     className="pather"
                     activeClass="active"
@@ -38,18 +39,19 @@ export class SidebarOpen extends Component {
                     smooth={true}
                     offset={-70}
                     duration={100}>
-                        {section}
+                        <Button className='sidebar_button'>{section}</Button>
+                        
                 </Link>
             </li>
         );
 
       return (
         <nav id="sidebar" >
-            <div className='background'>
-                <ul >                                 
+            <Card className='background' title={<h1 className='sidebar_title'>Quick Travel</h1>}>
+                <ul className="sidebar_list">                                 
                     {tags}
                 </ul>
-            </div>
+            </Card>
         </nav>
       );
     }

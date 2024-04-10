@@ -1,5 +1,5 @@
 body {
-    background-color: #282c34;
+    background-color: #282c34b2;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -7,8 +7,8 @@ body {
 }
 
 .wrapper {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 
@@ -25,7 +25,7 @@ body {
 
 .pather:hover {
     text-decoration: underline;
-    background-color: darkviolet;
+    /*background-color: darkviolet;*/
 }
 
 .sidebar {
@@ -39,8 +39,11 @@ body {
 }
 
 .sidebar .background {
-    background-color: lightslategray;
+    background-color: #141414;
     display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 95%;
 }
 
 .sidebar .button {
@@ -49,6 +52,28 @@ body {
 
 .sidebar .icon {
     font-size: larger;
+}
+
+.sidebar_list {
+    list-style-type: none;
+    padding-inline-start: 10px;
+    padding-inline-end: 5px;
+}
+
+.sidebar_title {
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF
+}
+
+.sidebar_button {
+    width: -webkit-fill-available;
+    color: #FFFFFF;
+    background: #141414;
+}
+
+.section_header {
+    text-decoration: underline;
 }
 
 .experience_section {
@@ -113,7 +138,7 @@ body {
 }
 
 .carousel_img {
-    height: 400px;
+    height: 350px;
 }
 
 .project_content {
@@ -152,7 +177,7 @@ body {
 }
 
 .column_right {
-    float: left;
+    float: right;
     width: 40%;
 }
 
@@ -166,4 +191,42 @@ body {
     text-align: left;
     background: #141414;
     color: #FFFFFF !important;
+}
+
+.email_style {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    background-color: rgba(113, 25, 151, 0.507);
+    color: #FFFFFF;
+}
+
+.gradient_background {
+    background: linear-gradient(180deg, #3a424e, #582c3e);
+    z-index: -1;
+    position: fixed;
+    margin:-7%;
+    margin-top: -3%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.skill_card {
+    width: 80%;
+    background: #141414;
+    color: #FFFFFF;
+}
+
+.skill_card_title {
+    color: #FFFFFF;
+}
+
+.skill_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
 }

@@ -11,7 +11,6 @@ var data = {
         "Game Development",
         "JavaScript",
         "ReactJS",
-        "Team Management",
         "VR Development",
         "Meta Quest Development",
         "Windows Forms",
@@ -27,7 +26,6 @@ var data = {
         "CSS",
         "HTML",
         "mySQL",
-        "User Interface Design"
     ]
 };
 
