@@ -1,14 +1,13 @@
 import React from "react";
 import { Component } from "react";
+import { Project } from "./Project";
 
 export class PastProjects extends Component {
     render() {
         return(
-            <h2>
-                Hello <br/>
-                I am Max Fischer, <br/>
-                I am a Software Developer<br/>
-            </h2>
+            <div>
+                <Project mode="false"/>
+            </div>
         );
     }
 }

@@ -6,7 +6,7 @@ export class CurrentProjects extends Component {
     render() {
         return(
             <div>
-                <Project mode="project"/>
+                <Project mode="true"/>
             </div>
         );
     }

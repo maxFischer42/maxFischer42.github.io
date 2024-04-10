@@ -97,3 +97,53 @@ body {
     padding: 4px;
     font-size: medium;
 }
+
+.carousel_style { 
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+}
+
+.carousel_img {
+    height: 300px;
+}
+
+.project_content {
+
+}
+
+.project_title {
+    text-align: left;
+}
+
+.project_type {
+    text-align: left;
+}
+
+.project_description {
+    text-align: left;
+}
+
+.project_links {
+    text-align: left;
+}
+
+.project_images {
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_left {
+    float: left;
+    width: 60%;
+}
+
+.column_right {
+    float: left;
+    width: 40%;
+}
