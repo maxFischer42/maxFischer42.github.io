@@ -18,7 +18,7 @@ var data = {
                 }
             },
             {
-                name: "Untitled Tower Defense Game",
+                name: "Untitled Tower Defense Game (working title)",
                 past: "false",
                 type: "Game",
                 description: [
@@ -35,6 +35,37 @@ var data = {
                     itch: null,
                     ld: null
                 }
+            },
+            {
+                name: "Making Connections",
+                past: "true",
+                type: "Hackathon Project",
+                description: [
+                    "Making Connections was a project for the Crimson Code 2024 Hackathon at Washington State University Pullman.",
+                    "College Campuses can be an intimidating place for new students. Especially for students who suffer from social anxiety it can be tough to put yourself out there and meet new friends. It can be scary to just walk up to people and start a conversation without knowing anything about each other, but what if there was a way an app could help break the ice?",
+                    "This app allows you to see other people in the near area who are also users of the app. Inspired by the \"Streetpass\" feature from the Nintendo 3DS, this app would let you interact with people who you might not otherwise, and meet new people along the way.",
+                    "Regarding the development of the app, it was built with Unity and managed to get it ported to Android devices for demonstration during the hackathon event.",
+                ],
+                images: [
+                    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/776/049/datas/gallery.jpg",
+                ],
+                links: {
+                    github: "https://github.com/maxFischer42/CrimsonCode2024",
+                    itch: null,
+                    ld: null,
+                }
+            },
+            {
+                name: "Radar Image Catalog",
+                past: "true",
+                type: "Full Stack Application",
+                description: [
+                    "During my internship at Pacific Northwest National Laboratory (PNNL), I was tasked to create an image viewing service that took a database of image file and display them in a pleasing to look at catalog.",
+                    "This catalog featured many different ways to filter out different images based on all sorts of parameters.",
+                    "This web application was built with ReactJS. Elastisearch was used for the database, and PHP was used for the backend service of converting the images for use in the database.",
+                ],
+                images: [],
+                links: null,
             },
             {
                 name: "Relics",
@@ -58,6 +89,54 @@ var data = {
                     github: "https://github.com/maxFischer42/LudumDare54",
                     ld: "https://ldjam.com/events/ludum-dare/54/relics"
                 }
+            },
+            {
+                name: "Slime Action RPG (working title)",
+                past: "false",
+                type: "Game",
+                description: [
+                    "This game served two purposes. It was initially created to assist in teaching basic video game design concepts for my Summer 2023 Introductory Game Design course for the TRIO program at WSU Tri-Cities. However, since the time that the program had ended, development on the game has continued.",
+                    "This game you play as a slime girl in a top-down environment."
+                ],
+                images: [],
+                links: {
+                    github: "https://github.com/maxFischer42/TopdownUnityCourse",
+                    itch: null,
+                    ld: null,
+                }
+            },
+            {
+                name: "2D Platforming Engine",
+                past: "false",
+                type: "Game",
+                description: [
+                    "This 2D Platforming Engine is a learning experience that I have been working on over the last few years to understand what builds a \"good-feeling\" fast paced 2D platforming game.",
+                    "The tools being made in this project would then be used to remake a past Game jam title of mine, \"The Deepest Level\".",
+                ],
+                images: [],
+                links: {
+                    github: "https://github.com/maxFischer42/monado-2D-platforming",
+                    itch: null,
+                    ld: null,
+                }
+            },
+            {
+                name: "Epidemic Interventions",
+                past: "true",
+                type: "Simulation",
+                description: [
+                    "Epidemic Interventions was a group project for my Software Engineering class at WSU.",
+                    "This software would emulate a virus spreading throughout a community, and how easily the virus would spread based around different weights that people's relationships with others were.",
+                    "The software would analyze the relationships between all of the different individuals in the given population and return who would be the best individual to apply a vaccination to, in order to prevent the most people from becoming infected.",
+                    "I did most of the programming of this software and assisted with implementing the algorithm for finding the best candidate."
+                ],
+                images: [],
+                links: {
+                    github: "https://github.com/tjcsilicon/Falcon-Solutions-Spring-2022",
+                    itch: null,
+                    ld: null,
+                }
+
             },
             {
                 name: "Overtime",
@@ -122,6 +201,21 @@ var data = {
                     github: "https://github.com/maxFischer42/DeepestLevel",
                     itch: "https://monadokami.itch.io/thedeepestlevel",
                     ld: "https://ldjam.com/events/ludum-dare/46/the-deepest-level",
+                }
+            },
+            {
+                name: "The Bonely Dragon",
+                past: "true",
+                type: "VR Game",
+                description: [
+                    "Between March and May of 2019, myself alongside two other people worked on a virtual reality project at Tri-Tech Skills Center. The two teammates of mine worked on 3D Modeling and Texturing, while I myself programmed and developed the rest of the project. I was required to learn how to program for virtual reality using the Unity Engine and developing with an Oculus Rift headset. In the end, we managed to make a short but fully playable game.",
+                    "You stumble across a mysterious dungeon and decide to explore it... Only to find yourself encountering monsters and puzzles, with a fire breathing dragon waiting at the deepest floor.",
+                ],
+                images: [],
+                links: {
+                    github: "https://github.com/maxFischer42/VR-RPG",
+                    itch: null,
+                    ld: null,
                 }
             },
             {

@@ -69,7 +69,7 @@ export class Project extends Component{
                     <Card className="card_style" title={<h1 className="card_style">{data.projects[id].name}</h1>}>
                         <h3 className="project_type"> {data.projects[id].type}</h3>
                         <p className="project_description">{this.getDescription(id)}</p>
-                        <Card title={<h1 className="card_style_header">Links</h1>}className="card_style">{this.getLinks(id)}</Card><br/>
+                        {data.projects[id].links != null ? (<><Card title={<h1 className="card_style_header">Links</h1>}className="card_style">{this.getLinks(id)}</Card><br/></>) : null}
                     </Card>   
                     </div>             
                     <div className="column_right" ><div className="project_images">{this.getImages(id)}</div></div>                    

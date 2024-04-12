@@ -16,18 +16,22 @@ export class Header extends Component {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={100}>
-                        <Button className='sidebar_button'>{section}</Button>
+                    duration={500}>
+                        <Button className='header_item'>{section}</Button>
                 </Link>
             </li>
         );
 
       return (
-          <div className='header_content'>
-            <ul className='header_list'>                                 
-                {tags}
-            </ul>
-          </div>
+            <div>
+                <div className="section-content" id="header"></div>
+                <div className='header_content'>
+                    <ul className='header_list'>                                 
+                        {tags}
+                    </ul>
+                </div>
+            </div>
+
       );
     }
   }

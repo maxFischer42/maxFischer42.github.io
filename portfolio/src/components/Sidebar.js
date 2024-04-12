@@ -29,8 +29,7 @@ export class SidebarButton extends Component {
 export class SidebarOpen extends Component {
     render() {
         var tags = data.sections.map((section) =>
-            <li>   
-                
+            <li className='sidebar_list_item'>                   
                 <Link
                     className="pather"
                     activeClass="active"
@@ -38,7 +37,7 @@ export class SidebarOpen extends Component {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={100}>
+                    duration={500}>
                         <Button className='sidebar_button'>{section}</Button>
                         
                 </Link>

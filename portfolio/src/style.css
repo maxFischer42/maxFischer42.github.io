@@ -20,7 +20,13 @@ body {
     justify-content: space-evenly;
     align-content: flex-start;
     align-items: flex-end;
-    flex-wrap: wrap;
+}
+
+.header_item {
+    width: 150px;
+    width: -webkit-fill-available;
+    color: #FFFFFF;
+    background: #141414;
 }
 
 .pather:hover {
@@ -34,7 +40,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 300px;
     margin-left: -75px;
 }
 
@@ -58,6 +64,10 @@ body {
     list-style-type: none;
     padding-inline-start: 10px;
     padding-inline-end: 5px;
+}
+
+.sidebar_list_item {
+    margin-bottom: 8px;
 }
 
 .sidebar_title {
@@ -229,4 +239,9 @@ body {
 .about_content {
     display: flex;
     flex-direction: column;
+}
+
+.back_to_top {
+    width:25%;
+    margin-bottom: 25px;
 }
