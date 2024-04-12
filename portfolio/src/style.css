@@ -5,6 +5,13 @@ body {
     text-align: center;
     padding-top: 40px;
 }
+/*
+#E27396     primary pink
+#EA9AB2     secondary pink
+#655560     dark
+#AB8588     primary white
+#C2C1A5     secondary white
+*/
 
 .wrapper {
     padding-left: 7%;
@@ -26,7 +33,7 @@ body {
     width: 150px;
     width: -webkit-fill-available;
     color: #FFFFFF;
-    background: #141414;
+    background: #655560;
 }
 
 .pather:hover {
@@ -45,11 +52,15 @@ body {
 }
 
 .sidebar .background {
-    background-color: #141414;
+    background-color: #655560;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     width: 95%;
+}
+
+.return {
+    background-color: #655560;
 }
 
 .sidebar .button {
@@ -79,7 +90,7 @@ body {
 .sidebar_button {
     width: -webkit-fill-available;
     color: #FFFFFF;
-    background: #141414;
+    background: #655560;
 }
 
 .section_header {
@@ -96,7 +107,7 @@ body {
 .info_card {
     width: 1000px;
     text-align: left;
-    background: #141414;
+    background: #5e6863;
     color: #FFFFFF;
 }
 
@@ -126,6 +137,19 @@ body {
 
 .info_card .school_date {
     float: right;
+}
+
+.link_card {
+    background-color: #6f8078;
+}
+
+.link_header {
+    color: white;    
+}
+
+.link_card a{
+    color:white;
+    text-decoration: underline;
 }
 
 .skill_table {
@@ -193,13 +217,13 @@ body {
 
 .card_style {
     text-align: left;
-    background: #141414;
+    background: #5e6863;
     color: #FFFFFF !important;
 }
 
 .card_style_header {
     text-align: left;
-    background: #141414;
+    background: #a5869b;
     color: #FFFFFF !important;
 }
 
@@ -211,7 +235,7 @@ body {
 }
 
 .gradient_background {
-    background: linear-gradient(180deg, #3a424e, #582c3e);
+    background: linear-gradient(180deg, #683f4b, #9b4d66);
     z-index: -1;
     position: fixed;
     margin:-7%;
@@ -222,7 +246,7 @@ body {
 
 .skill_card {
     width: 80%;
-    background: #141414;
+    background: #5e6863;
     color: #FFFFFF;
 }
 
@@ -244,4 +268,6 @@ body {
 .back_to_top {
     width:25%;
     margin-bottom: 25px;
+    background-color: #655560;
+    color:white;
 }
