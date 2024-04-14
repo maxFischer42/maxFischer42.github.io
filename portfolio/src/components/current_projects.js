@@ -98,7 +98,13 @@ var data = {
                     "This game served two purposes. It was initially created to assist in teaching basic video game design concepts for my Summer 2023 Introductory Game Design course for the TRIO program at WSU Tri-Cities. However, since the time that the program had ended, development on the game has continued.",
                     "This game you play as a slime girl in a top-down environment."
                 ],
-                images: [],
+                images: [
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/97589143bf8fa3260db60aaa1f9aaff9f0bfb61f/portfolio/imgs/slime_action_rpg_gif2.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/97589143bf8fa3260db60aaa1f9aaff9f0bfb61f/portfolio/imgs/slime_action_rpg_gif1.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/97589143bf8fa3260db60aaa1f9aaff9f0bfb61f/portfolio/imgs/slime_action_rpg_gif3.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/97589143bf8fa3260db60aaa1f9aaff9f0bfb61f/portfolio/imgs/slime_action_rpg_sc1.png",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/97589143bf8fa3260db60aaa1f9aaff9f0bfb61f/portfolio/imgs/slime_action_rpg_sc2.png"
+                ],
                 links: {
                     github: "https://github.com/maxFischer42/TopdownUnityCourse",
                     itch: null,
@@ -106,11 +112,11 @@ var data = {
                 }
             },
             {
-                name: "2D Platforming Engine",
+                name: "2D Platforming Framework",
                 past: "false",
                 type: "Game",
                 description: [
-                    "This 2D Platforming Engine is a learning experience that I have been working on over the last few years to understand what builds a \"good-feeling\" fast paced 2D platforming game.",
+                    "This 2D Platforming Framework is a learning experience that I have been working on over the last few years to understand what builds a \"good-feeling\" fast paced 2D platforming game.",
                     "The tools being made in this project would then be used to remake a past Game jam title of mine, \"The Deepest Level\".",
                 ],
                 images: [],
