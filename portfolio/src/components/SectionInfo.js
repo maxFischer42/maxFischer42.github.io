@@ -1,6 +1,5 @@
 var data = {
     sections: ["About",
-    "Skills",
     "Experience",
     "Education",
     "Current Projects",

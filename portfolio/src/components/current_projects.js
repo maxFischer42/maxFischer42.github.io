@@ -26,9 +26,7 @@ var data = {
                     "This game is primarily built utilizing C# and the Unity game engine.",
                 ],
                 images: [
-                    "https://m.media-amazon.com/images/I/511Wd7ip16L._AC_UF894,1000_QL80_.jpg",
-                    "https://schylling.com/wp-content/uploads/2020/08/RDKY-Classic-Yellow-Rubber-Duck_web.jpg",
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuNOE_KvcHNJ9jXaroAZ8qg7VwbRfaQYCQJ61UBBENA&s"
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/38abfd4cd92b4ebd797bffe263027895013cb800/portfolio/imgs/towerdefensegif1.gif",
                 ],
                 links: {
                     github: "https://github.com/maxFischer42/TowerDefenseProject",
@@ -78,6 +76,9 @@ var data = {
                     "This game was made for the Ludum Dare game jam in under 72 hours."
                 ],
                 images: [
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/relics_gif3.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/relics_gif4.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/relics_gif5.gif",
                     "https://img.itch.zone/aW1hZ2UvMjI5NDEzNC8xMzU5NTI1NS5wbmc=/original/YDZXJw.png",
                     "https://img.itch.zone/aW1hZ2UvMjI5NDEzNC8xMzU5NTI1OC5wbmc=/original/oo81uU.png",
                     "https://img.itch.zone/aW1hZ2UvMjI5NDEzNC8xMzU5NTI1Ni5wbmc=/original/XeHT2A.png",
@@ -119,7 +120,11 @@ var data = {
                     "This 2D Platforming Framework is a learning experience that I have been working on over the last few years to understand what builds a \"good-feeling\" fast paced 2D platforming game.",
                     "The tools being made in this project would then be used to remake a past Game jam title of mine, \"The Deepest Level\".",
                 ],
-                images: [],
+                images: [
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif1.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif2.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif3.gif"
+                ],
                 links: {
                     github: "https://github.com/maxFischer42/monado-2D-platforming",
                     itch: null,
@@ -229,7 +234,7 @@ var data = {
                 past: "true",
                 type: "Game",
                 description: [
-                    "Hearty Dungeon is a roguelike with a randomly generated dungeon. Explore a set of seven floors of this dungeon, bargain with the shopkeeper with you health, as your health also serves as your currency!",
+                    "Hearty Dungeon is a roguelike with a randomly generated dungeon. Explore a set of five floors of this dungeon, bargain with the shopkeeper with you health, as your health also serves as your currency!",
                     "Explore this randomly generated dungeon full of monsters to find the treasure that lies at the end! Throughout the dungeon are mysterious merchants who will enhance an aspect of yourself in exchange for a portion of your soul! Get through all 5 levels of the dungeon to reach the final boss. Utilize your sword and kunais and optimize your upgrades to get through in one piece!",
                     "Hearty Dungeon was created during the Ludum Dare 44 game jam in under 72 hours.",
                 ],

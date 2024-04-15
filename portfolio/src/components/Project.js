@@ -68,6 +68,7 @@ export class Project extends Component{
                     <div className="column_left">
                     <Card className="card_style" title={<h1 className="card_style">{data.projects[id].name}</h1>}>
                         <h3 className="project_type"> {data.projects[id].type}</h3>
+                        <h4 className="project_date"> {data.projects[id].date}</h4>                
                         <p className="project_description">{this.getDescription(id)}</p>
                         {data.projects[id].links != null ? (<><Card title={<h1 className="link_header">Links</h1>}className="link_card">{this.getLinks(id)}</Card><br/></>) : null}
                     </Card>   

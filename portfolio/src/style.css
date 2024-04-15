@@ -93,6 +93,16 @@ body {
     background: #655560;
 }
 
+.about_left {
+    float: left;
+    width: 50%;
+}
+
+.about_right {
+    float: right;
+    width: 50%;
+}
+
 .section_header {
     text-decoration: underline;
 }
@@ -187,6 +197,10 @@ body {
     text-align: left;
 }
 
+.project_date {
+    text-align: right;
+}
+
 .project_description {
     text-align: left;
 }
@@ -263,6 +277,7 @@ body {
 .about_content {
     display: flex;
     flex-direction: column;
+    height: 700px;
 }
 
 .back_to_top {

@@ -14,11 +14,13 @@ export class Page extends Component {
 
         var sections = data.sections.map((section) => 
             <>
-                <Section
-                    title={section}
-                    dark={true}
-                    id={section}
-                />
+                <div>
+                    <Section
+                        title={section}
+                        dark={true}
+                        id={section}
+                    />
+                </div>
                 <br/>
                 {ColoredLine("white", 1)}
 
