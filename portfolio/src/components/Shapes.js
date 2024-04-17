@@ -1,10 +1,11 @@
-export function ColoredLine(color, width) {
+export function ColoredLine(color, height, width) {
     return(
         <hr
         style={{
                 color: color,
                 backgroundColor: color,
-                height: width,
+                height: height,
+                width: width,
         }} 
         />
     );

@@ -9,16 +9,18 @@ export class Header extends Component {
     render() {
         var tags = data.sections.map((section) =>
             <li className='header_item'>   
-                <Link
-                    className="pather"
-                    activeClass="active"
-                    to={section}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
-                        <Button className='header_item'>{section}</Button>
-                </Link>
+                <div className='header_button_div'>
+                    <Link
+                        className="pather"
+                        activeClass="active"
+                        to={section}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
+                            <Button className='header_item'>{section}</Button>
+                    </Link>
+                </div>
             </li>
         );
 

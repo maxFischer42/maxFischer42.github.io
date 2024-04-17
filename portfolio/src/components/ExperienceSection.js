@@ -8,13 +8,15 @@ import { ColoredLine } from "./Shapes"
 export class ExperienceCard extends Component {
     render() {
         return(
-            <Card className="info_card">
-                <label className="company_title">{this.props.company}</label>, {this.props.location}<br/>
-                {ColoredLine("white", 2)}
-                <label className="job_date">{this.props.start} - {this.props.end}<br/> </label><br/>
-                <label className="company_position">{this.props.title}</label><br/>
-                <p>{this.props.description}</p>
-            </Card>
+            <div className="card_div">
+                <Card className="info_card">
+                    <label className="company_title">{this.props.company}</label>, {this.props.location}<br/>
+                    {ColoredLine("white", 2, "95%")}
+                    <label className="job_date">{this.props.start} - {this.props.end}<br/> </label><br/>
+                    <label className="company_position">{this.props.title}</label><br/>
+                    <p>{this.props.description}</p>
+                </Card>
+            </div>
         );
     }
 }

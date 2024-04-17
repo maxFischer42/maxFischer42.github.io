@@ -15,7 +15,9 @@ var data = {
                     github: "https://github.com/maxFischer42/maxFischer42.github.io",
                     itch: null,
                     ld: null
-                }
+                },
+                imgW: null,
+                imgH: null,
             },
             {
                 name: "Untitled Tower Defense Game (working title)",
@@ -32,7 +34,9 @@ var data = {
                     github: "https://github.com/maxFischer42/TowerDefenseProject",
                     itch: null,
                     ld: null
-                }
+                },
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "Making Connections",
@@ -51,7 +55,9 @@ var data = {
                     github: "https://github.com/maxFischer42/CrimsonCode2024",
                     itch: null,
                     ld: null,
-                }
+                },                
+                imgW: "300px",
+                imgH: "550px",
             },
             {
                 name: "Radar Image Catalog",
@@ -63,7 +69,9 @@ var data = {
                     "This web application was built with ReactJS. Elastisearch was used for the database, and PHP was used for the backend service of converting the images for use in the database.",
                 ],
                 images: [],
-                links: null,
+                links: null,                
+                imgW: null,
+                imgH: null,
             },
             {
                 name: "Relics",
@@ -89,7 +97,9 @@ var data = {
                     itch: "https://monadokami.itch.io/relics",
                     github: "https://github.com/maxFischer42/LudumDare54",
                     ld: "https://ldjam.com/events/ludum-dare/54/relics"
-                }
+                },
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "Slime Action RPG (working title)",
@@ -110,7 +120,9 @@ var data = {
                     github: "https://github.com/maxFischer42/TopdownUnityCourse",
                     itch: null,
                     ld: null,
-                }
+                },                
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "2D Platforming Framework",
@@ -129,7 +141,9 @@ var data = {
                     github: "https://github.com/maxFischer42/monado-2D-platforming",
                     itch: null,
                     ld: null,
-                }
+                },                
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "Epidemic Interventions",
@@ -146,7 +160,9 @@ var data = {
                     github: "https://github.com/tjcsilicon/Falcon-Solutions-Spring-2022",
                     itch: null,
                     ld: null,
-                }
+                },
+                imgW: null,
+                imgH: null,
 
             },
             {
@@ -168,7 +184,9 @@ var data = {
                     github: "https://github.com/maxFischer42/ld-50",
                     itch: "https://monadokami.itch.io/overtime",
                     ld: "https://ldjam.com/events/ludum-dare/50/overtime-1",
-                }
+                },                
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "Fight or Flight",
@@ -190,7 +208,9 @@ var data = {
                     github: "https://github.com/maxFischer42/ld49",
                     itch: "https://monadokami.itch.io/fight-or-flight",
                     ld: "https://ldjam.com/events/ludum-dare/49/fight-or-flight",
-                }
+                },                
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "The Deepest Level",
@@ -212,7 +232,9 @@ var data = {
                     github: "https://github.com/maxFischer42/DeepestLevel",
                     itch: "https://monadokami.itch.io/thedeepestlevel",
                     ld: "https://ldjam.com/events/ludum-dare/46/the-deepest-level",
-                }
+                },                
+                imgW: "550px",
+                imgH: "300px",
             },
             {
                 name: "The Bonely Dragon",
@@ -227,7 +249,9 @@ var data = {
                     github: "https://github.com/maxFischer42/VR-RPG",
                     itch: null,
                     ld: null,
-                }
+                },                
+                imgW: null,
+                imgH: null,
             },
             {
                 name: "Hearty Dungeon",
@@ -247,7 +271,9 @@ var data = {
                     github: "https://github.com/maxFischer42/HeartyDungeon",
                     itch: null,
                     ld: "https://ldjam.com/events/ludum-dare/44/hearty-dungeon",
-                }
+                },                
+                imgW: "550px",
+                imgH: "300px",
             }
         ],
 };

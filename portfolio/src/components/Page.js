@@ -21,9 +21,8 @@ export class Page extends Component {
                         id={section}
                     />
                 </div>
-                <br/>
-                {ColoredLine("white", 1)}
-
+                <br/>                
+                {ColoredLine("white", 1, "100%")}
             </>);
 
         return(
@@ -33,7 +32,7 @@ export class Page extends Component {
                 <Sidebar/>
                 <div className="wrapper">                    
                     <Header />
-                    {ColoredLine("white", 1)}
+                    {ColoredLine("white", 1, "1000px")}
                     <h1>Max Fischer Portfolio</h1>
                     <br/>
                     {sections}

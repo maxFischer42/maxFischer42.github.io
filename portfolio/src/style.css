@@ -16,6 +16,10 @@ body {
 .wrapper {
     padding-left: 7%;
     padding-right: 7%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
 }
 
 
@@ -30,7 +34,6 @@ body {
 }
 
 .header_item {
-    width: 150px;
     width: -webkit-fill-available;
     color: #FFFFFF;
     background: #655560;
@@ -119,6 +122,8 @@ body {
     text-align: left;
     background: #5e6863;
     color: #FFFFFF;
+    
+    box-shadow: 0px 5px 5px rgb(95, 12, 47);
 }
 
 .info_card .company_title {
@@ -177,12 +182,14 @@ body {
 
 .carousel_style { 
     display: flex !important;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .carousel_img {
-    height: 350px;
+   height: 300px;
+   width: 550px;
 }
 
 .project_content {
@@ -210,13 +217,17 @@ body {
 }
 
 .project_images {
-
+padding: 5%;
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.row {
+    padding: 15px, 0px;
 }
 
 .column_left {
@@ -233,11 +244,13 @@ body {
     text-align: left;
     background: #5e6863;
     color: #FFFFFF !important;
+    
+    box-shadow: 0px 5px 5px rgb(95, 12, 47);
 }
 
 .card_style_header {
     text-align: left;
-    background: #a5869b;
+    background: #5e6863;
     color: #FFFFFF !important;
 }
 
@@ -249,12 +262,11 @@ body {
 }
 
 .gradient_background {
-    background: linear-gradient(180deg, #683f4b, #9b4d66);
+    background: linear-gradient(180deg, #975267, #792741);
     z-index: -1;
     position: fixed;
     margin:-7%;
-    margin-top: -3%;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
 }
 
@@ -262,6 +274,7 @@ body {
     width: 80%;
     background: #5e6863;
     color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(95, 12, 47);
 }
 
 .skill_card_title {
@@ -278,6 +291,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 700px;
+    
+}
+
+.about_links {
+    justify-content: center;
+    align-content: center;
+    display: flex;
 }
 
 .back_to_top {
@@ -286,3 +306,180 @@ body {
     background-color: #655560;
     color:white;
 }
+
+.about_link_card {
+    flex-direction: column;
+    background-color: #5e6863;
+    width:50%;
+    color:white;
+    text-decoration-color: white;
+    box-shadow: 0px 5px 5px rgb(95, 12, 47);
+}
+
+.about_link_card_title {
+    color: white;
+    text-decoration-color: white;
+    text-decoration: underline;
+    
+}
+
+.about_link_card a{
+    color: white;
+    text-decoration-color: white;
+    text-decoration: underline;
+    
+}
+
+
+
+
+/*   ---- Animations ----  */
+
+.card_div:hover {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            
+    z-index: 2;
+    position: sticky;
+}
+
+.card_div {
+    -webkit-animation: scale-down-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-down-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);              
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);
+    }
+  }
+  
+  @-webkit-keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);              
+    }
+  }
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+.sidebar_div {
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.header_button_div:hover {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  

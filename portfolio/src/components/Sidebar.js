@@ -29,28 +29,32 @@ export class SidebarButton extends Component {
 export class SidebarOpen extends Component {
     render() {
         var tags = data.sections.map((section) =>
-            <li className='sidebar_list_item'>                   
-                <Link
-                    className="pather"
-                    activeClass="active"
-                    to={section}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
-                        <Button className='sidebar_button'>{section}</Button>
-                        
-                </Link>
+            <li className='sidebar_list_item'>           
+                <div className='header_button_div'>        
+                    <Link
+                        className="pather"
+                        activeClass="active"
+                        to={section}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
+                            <Button className='sidebar_button'>{section}</Button>
+                            
+                    </Link>
+                </div>
             </li>
         );
 
       return (
         <nav id="sidebar" >
+            <div className='sidebar_div'>
             <Card className='background' title={<h1 className='sidebar_title'>Quick Travel</h1>}>
                 <ul className="sidebar_list">                                 
                     {tags}
                 </ul>
             </Card>
+            </div>
         </nav>
       );
     }
