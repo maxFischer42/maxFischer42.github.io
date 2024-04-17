@@ -10,7 +10,7 @@ export class About extends Component {
             <div>
                 <div className="about_left">
                     <div className="about_content">
-                        <h2> Hi, I'm Max Fischer </h2> <img src="../../imgs/pixel_icon.png"/>
+                        <h2> Hi, I'm Max Fischer <img className="icon_image" src="https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/370542b0fc8aa4677314e55118cbeb0aa51bd823/portfolio/imgs/pixel_icon.png"/></h2> 
                         <h3>I'm a Software Engineer and independent Game Designer</h3><br/>
                         <h3>I've been programming for the last ten years, be it general applications, homework assignments, or games.</h3><br/>
                         <h3>This site is a collection of some of my best work.</h3><br/>

@@ -134,6 +134,11 @@ background: linear-gradient(180deg, #60916f, #4a554e);
     flex-direction: column;
 }
 
+.icon_image {
+    width: 64px;
+    height: 64px;
+}
+
 .info_card {
 /*    width: 1000px;*/
     text-align: left;
