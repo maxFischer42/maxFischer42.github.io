@@ -5,6 +5,7 @@ import data from './SectionInfo';
 import "../style.css";
 import { Button, Card } from 'antd';
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons"
+import { isFirefox } from "react-device-detect"
 
 export class SidebarButton extends Component {
     constructor(props) {
@@ -95,6 +96,8 @@ export class Sidebar extends Component {
                     {menu}
                     <SidebarButton status={this.state.isOpen} value={!this.state.isOpen} callback={this.updateMenu}/>
                 </div>
+                <br/>
+
             </div>
         );
     }
