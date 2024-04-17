@@ -4,13 +4,15 @@ import { Skills } from "./SkillsSection";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import { Card } from "antd"
 
+var sprite_url = "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/4118bb0a30357f2821729d24e90b98e6070f47d6/portfolio/imgs/pixel_icon.png";
+
 export class About extends Component {
     render() {
         return(
             <div>
                 <div className="about_left">
                     <div className="about_content">
-                        <h2> Hi, I'm Max Fischer <img className="icon_image" src="https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/370542b0fc8aa4677314e55118cbeb0aa51bd823/portfolio/imgs/pixel_icon.png"/></h2> 
+                        <h2> Hi, I'm Max Fischer <img className="icon_image" src={sprite_url}/></h2> 
                         <h3>I'm a Software Engineer and independent Game Designer</h3><br/>
                         <h3>I've been programming for the last ten years, be it general applications, homework assignments, or games.</h3><br/>
                         <h3>This site is a collection of some of my best work.</h3><br/>
