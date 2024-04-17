@@ -135,9 +135,10 @@ background: linear-gradient(180deg, #60916f, #4a554e);
 }
 
 .info_card {
-    width: 1000px;
+/*    width: 1000px;*/
     text-align: left;
     /*background: #5e6863;*/
+    width: 60vw;
     
     background: linear-gradient(180deg, #60916f, #4a554e);
     color: #FFFFFF;
@@ -299,13 +300,15 @@ background: linear-gradient(180deg, #60916f, #4a554e);
 }
 
 .skill_card {
-    width: 80%;
+    /*width: 80%;*/
 /*    background: #5e6863;*/
     
     background: linear-gradient(180deg, #60916f, #4a554e);
     color: #FFFFFF;
     box-shadow: 0px 5px 5px rgb(95, 12, 47);
+    width: -webkit-fill-available;
 }
+
 
 .skill_card_title {
     color: #FFFFFF;

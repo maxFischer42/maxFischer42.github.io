@@ -11,7 +11,7 @@ export class About extends Component {
                 <div className="about_left">
                     <div className="about_content">
                         <h2> Hi, I'm Max Fischer </h2><br/>
-                        <h3>I'm a Software Engineer and independant Game Designer</h3><br/>
+                        <h3>I'm a Software Engineer and independent Game Designer</h3><br/>
                         <h3>I've been programming for the last ten years, be it general applications, homework assignments, or games.</h3><br/>
                         <h3>This site is a collection of some of my best work.</h3><br/>
                         <div className="about_links">
