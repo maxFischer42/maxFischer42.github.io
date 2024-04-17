@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
+    
 }
 
 
@@ -366,6 +367,14 @@ background: linear-gradient(180deg, #60916f, #4a554e);
 
 
 
+.mobile_warning {
+    background: linear-gradient(180deg, #a86b79, #743953);
+
+}
+
+.full_background {
+
+}
 
 /*   ---- Animations ----  */
 

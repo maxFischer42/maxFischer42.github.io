@@ -8,10 +8,21 @@ import { Sidebar } from './Sidebar';
 import { PageInfo } from './PageInfo'
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Button } from "antd"
+import {isMobile} from 'react-device-detect';
 
 export class Page extends Component {
-    render() {
+    constructor(props) {
+        super(props)
+        this.state = {
+            viewOnMobile: false,
+        }
+    }
 
+    toggleOffMobileScreen = () => {
+        this.setState({viewOnMobile: true});
+    }
+
+    handlePage() {
         var sections = data.sections.map((section) => 
             <>
                 <div>
@@ -52,6 +63,30 @@ export class Page extends Component {
                 </Link>
             </div>            
             </div>
+        )
+    }
+
+    handleMobileView() {
+        if(isMobile) {
+            if(this.state.viewOnMobile == false) {
+                return(
+                    <div className='mobile_warning'>
+                        This page is intended to view on a Desktop device. Viewing on mobile devices will result in the page breaking.
+                        <br/>
+                        <Button onClick={this.toggleOffMobileScreen}>Continue</Button>
+                    </div>
+                )
+            } else {
+                return this.handlePage()
+            }
+        } else {
+            return this.handlePage()
+        }
+    }
+
+    render() {
+        return(
+            this.handleMobileView()
         )
     }
 }

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "antd": "^5.16.1"
+    "antd": "^5.16.1",
+    "react-device-detect": "^2.2.3"
   }
 }
