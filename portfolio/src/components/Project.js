@@ -61,7 +61,7 @@ export class Project extends Component{
         }
 
         return(
-            <Carousel>
+            <Carousel autoplay="true" autoplaySpeed={8000}>
                 {imgs}
             </Carousel>
         )
