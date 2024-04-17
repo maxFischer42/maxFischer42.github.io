@@ -36,7 +36,9 @@ body {
 .header_item {
     width: -webkit-fill-available;
     color: #FFFFFF;
-    background: #655560;
+/*    background: #655560;*/
+    
+    background: linear-gradient(180deg, #a86b79, #743953);
 }
 
 .pather:hover {
@@ -45,17 +47,28 @@ body {
 }
 
 .sidebar {
-    z-index: 1;
+    /*z-index: 1;
     position: fixed;  
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-    margin-left: -75px;
+    margin-left: -75px;*/
+
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+    margin-left: -100px;
+    flex-direction: column-reverse;
 }
 
 .sidebar .background {
-    background-color: #655560;
+/*    background-color: #655560;*/
+    
+background: linear-gradient(180deg, #60916f, #4a554e);
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -68,6 +81,7 @@ body {
 
 .sidebar .button {
     position:initial;
+    background-color: #ffffff96;
 }
 
 .sidebar .icon {
@@ -93,7 +107,9 @@ body {
 .sidebar_button {
     width: -webkit-fill-available;
     color: #FFFFFF;
-    background: #655560;
+/*    background: #655560;*/
+    
+    background: linear-gradient(180deg, #a86b79, #743953);
 }
 
 .about_left {
@@ -120,7 +136,9 @@ body {
 .info_card {
     width: 1000px;
     text-align: left;
-    background: #5e6863;
+    /*background: #5e6863;*/
+    
+    background: linear-gradient(180deg, #60916f, #4a554e);
     color: #FFFFFF;
     
     box-shadow: 0px 5px 5px rgb(95, 12, 47);
@@ -155,7 +173,9 @@ body {
 }
 
 .link_card {
-    background-color: #6f8078;
+/*    background-color: #6f8078;*/
+    
+    background: linear-gradient(180deg, #78b98b, #829b8b);
 }
 
 .link_header {
@@ -205,7 +225,6 @@ body {
 }
 
 .project_date {
-    text-align: right;
 }
 
 .project_description {
@@ -217,7 +236,12 @@ body {
 }
 
 .project_images {
-padding: 5%;
+    justify-content: center;
+}
+
+.image_card {
+    background-color: #00000000;
+    margin: 1vh;
 }
 
 .row:after {
@@ -242,7 +266,9 @@ padding: 5%;
 
 .card_style {
     text-align: left;
-    background: #5e6863;
+    /*background: #5e6863;*/
+    
+    background: linear-gradient(180deg, #60916f, #4a554e);
     color: #FFFFFF !important;
     
     box-shadow: 0px 5px 5px rgb(95, 12, 47);
@@ -250,7 +276,8 @@ padding: 5%;
 
 .card_style_header {
     text-align: left;
-    background: #5e6863;
+    /*background: #5e6863;*/
+    
     color: #FFFFFF !important;
 }
 
@@ -272,7 +299,9 @@ padding: 5%;
 
 .skill_card {
     width: 80%;
-    background: #5e6863;
+/*    background: #5e6863;*/
+    
+    background: linear-gradient(180deg, #60916f, #4a554e);
     color: #FFFFFF;
     box-shadow: 0px 5px 5px rgb(95, 12, 47);
 }
@@ -303,13 +332,18 @@ padding: 5%;
 .back_to_top {
     width:25%;
     margin-bottom: 25px;
-    background-color: #655560;
+/*    background-color: #655560;*/
+
+    background: linear-gradient(180deg, #a86b79, #743953);
+    
     color:white;
 }
 
 .about_link_card {
     flex-direction: column;
-    background-color: #5e6863;
+/*    background-color: #5e6863;*/
+    
+    background: linear-gradient(180deg, #60916f, #4a554e);
     width:50%;
     color:white;
     text-decoration-color: white;

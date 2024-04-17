@@ -18,6 +18,7 @@ var data = {
                 },
                 imgW: null,
                 imgH: null,
+                year: "2024",
             },
             {
                 name: "Untitled Tower Defense Game (working title)",
@@ -37,6 +38,7 @@ var data = {
                 },
                 imgW: "550px",
                 imgH: "300px",
+                year: "2024",
             },
             {
                 name: "Making Connections",
@@ -58,6 +60,7 @@ var data = {
                 },                
                 imgW: "300px",
                 imgH: "550px",
+                year: "2024",
             },
             {
                 name: "Radar Image Catalog",
@@ -72,6 +75,7 @@ var data = {
                 links: null,                
                 imgW: null,
                 imgH: null,
+                year: "2019 - 2021",
             },
             {
                 name: "Relics",
@@ -100,6 +104,7 @@ var data = {
                 },
                 imgW: "550px",
                 imgH: "300px",
+                year: "2023",
             },
             {
                 name: "Slime Action RPG (working title)",
@@ -123,6 +128,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
+                year: "2023 - 2024",
             },
             {
                 name: "2D Platforming Framework",
@@ -144,6 +150,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
+                year: "2020 - 2024",
             },
             {
                 name: "Epidemic Interventions",
@@ -163,6 +170,7 @@ var data = {
                 },
                 imgW: null,
                 imgH: null,
+                year: "2022",
 
             },
             {
@@ -187,6 +195,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
+                year: "2022",
             },
             {
                 name: "Fight or Flight",
@@ -211,6 +220,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
+                year: "2021",
             },
             {
                 name: "The Deepest Level",
@@ -235,6 +245,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
+                year: "2020",
             },
             {
                 name: "The Bonely Dragon",
@@ -252,6 +263,7 @@ var data = {
                 },                
                 imgW: null,
                 imgH: null,
+                year: "2019",
             },
             {
                 name: "Hearty Dungeon",
@@ -274,6 +286,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
+                year: "2019",
             }
         ],
 };

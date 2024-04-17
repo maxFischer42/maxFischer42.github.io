@@ -61,9 +61,13 @@ export class Project extends Component{
         }
 
         return(
-            <Carousel autoplay="true" autoplaySpeed={8000}>
-                {imgs}
-            </Carousel>
+            data.projects[id].images.length > 0 ? 
+            <Card className="image_card">
+                <Carousel autoplay="true" autoplaySpeed={8000}>
+                    {imgs}
+                </Carousel>
+            </Card>
+            : <></>
         )
     }
 
@@ -77,8 +81,7 @@ export class Project extends Component{
                     <div className="column_left">
                         <div className="card_div">
                             <Card className="card_style" title={<h1 className="card_style_header">{data.projects[id].name}</h1>}>
-                                <h3 className="project_type"> {data.projects[id].type}</h3>
-                                <h4 className="project_date"> {data.projects[id].date}</h4>                
+                                <h3 className="project_type"> {data.projects[id].type}</h3><h4 className="project_date">{data.projects[id].year}</h4>            
                                 <p className="project_description">{this.getDescription(id)}</p>
                                 {data.projects[id].links != null ? (<><Card title={<h1 className="link_header">Links</h1>}className="link_card">{this.getLinks(id)}</Card><br/></>) : null}
                             </Card>   
