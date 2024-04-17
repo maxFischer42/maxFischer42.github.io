@@ -139,6 +139,10 @@ background: linear-gradient(180deg, #60916f, #4a554e);
     height: 64px;
 }
 
+.firefox_notice {
+    margin-left: 15px;
+}
+
 .info_card {
 /*    width: 1000px;*/
     text-align: left;

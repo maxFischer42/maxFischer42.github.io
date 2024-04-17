@@ -4,7 +4,7 @@ import { Skills } from "./SkillsSection";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import { Card } from "antd"
 
-var sprite_url = "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/4118bb0a30357f2821729d24e90b98e6070f47d6/portfolio/imgs/pixel_icon.png";
+var sprite_url = "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/4aa809cfc1d5f4104180b067b0ba99b75bc50c72/portfolio/imgs/pixel_icon.png";
 
 export class About extends Component {
     render() {

@@ -28,6 +28,13 @@ export class SidebarButton extends Component {
 
 
 export class SidebarOpen extends Component {
+
+    firefoxNotice() {
+        return (
+            <div className="firefox_notice">It seems that you are<br/> using the Firefox browser.<br/> The styling for this<br/> page does not format<br/> correctly in Firefox;<br/> it is recommended to use<br/> a different browser <br/>for this page.</div>
+        );
+    }
+
     render() {
         var tags = data.sections.map((section) =>
             <li className='sidebar_list_item'>           
@@ -55,6 +62,7 @@ export class SidebarOpen extends Component {
                     {tags}
                 </ul>
             </Card>
+            {isFirefox ? this.firefoxNotice() : <></>}
             </div>
         </nav>
       );
@@ -92,12 +100,12 @@ export class Sidebar extends Component {
         var menu = this.state.isOpen ? <SidebarOpen/> : <SidebarClosed/>
         return(
             <div>
-                <div className="sidebar">
+                <div className="sidebar">                    
                     {menu}
                     <SidebarButton status={this.state.isOpen} value={!this.state.isOpen} callback={this.updateMenu}/>
                 </div>
                 <br/>
-
+                
             </div>
         );
     }
