@@ -25,9 +25,9 @@ export class About extends Component {
                                     <br/>
                                     <a href="https://monadokami.itch.io">Itch.io</a>
                                     <br/>
-                                    <a href="https://docs.google.com/document/d/1Jvi1ZUb_PqNzOiD7BCuycFscLG6u_ZKt/edit?usp=sharing&ouid=104650230237681519173&rtpof=true&sd=true">Resume</a>
+                                    <a href="https://docs.google.com/document/d/13gswiNHZiEirO_DIp8Wqo4t1TDJ84Fq7iKro8EfXC3g/edit?usp=sharing">Resume</a>
                                     <br/>
-                                    <a href="https://docs.google.com/document/d/1OXkFU_Graw45ha01WAM6k9p5sSl14nRNoXgyhVRjYKI/edit?usp=sharing">Resume/CV</a>         
+                                    <a href="https://docs.google.com/document/d/1OXkFU_Graw45ha01WAM6k9p5sSl14nRNoXgyhVRjYKI/edit?usp=sharing">CV</a>         
                                 </div>                   
                             </Card>
                         </div>
