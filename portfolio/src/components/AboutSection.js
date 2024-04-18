@@ -12,7 +12,7 @@ export class About extends Component {
             <div>
                 <div className="about_left">
                     <div className="about_content">
-                        <h2> Hi, I'm Max Fischer <img className="icon_image" src={sprite_url}/></h2> 
+                        <h2> Hi, I'm Max Fischer <img className="icon_image" src={sprite_url} alt=""/></h2> 
                         <h3>I'm a Software Engineer and independent Game Designer</h3><br/>
                         <h3>I've been programming for the last ten years, be it general applications, homework assignments, or games.</h3><br/>
                         <h3>This site is a collection of some of my best work.</h3><br/>
@@ -25,9 +25,9 @@ export class About extends Component {
                                     <br/>
                                     <a href="https://monadokami.itch.io">Itch.io</a>
                                     <br/>
-                                    <a href="https://docs.google.com/document/d/13gswiNHZiEirO_DIp8Wqo4t1TDJ84Fq7iKro8EfXC3g/edit?usp=sharing">Resume</a>
+                                    <a href="https://drive.google.com/file/d/1DxXC8Jr-uLzwOTkMEZkTL7mpbyygKiOi/view?usp=drive_link">Resume</a>
                                     <br/>
-                                    <a href="https://docs.google.com/document/d/1OXkFU_Graw45ha01WAM6k9p5sSl14nRNoXgyhVRjYKI/edit?usp=sharing">CV</a>         
+                                    <a href="https://drive.google.com/file/d/1si0rd0UocsjEK0nJMnKz0c3apg4vwNDK/view?usp=sharing">CV</a>         
                                 </div>                   
                             </Card>
                         </div>
