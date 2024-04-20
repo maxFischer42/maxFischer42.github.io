@@ -27,7 +27,7 @@ export class About extends Component {
                                     <br/>
                                     <a href="https://drive.google.com/file/d/1DxXC8Jr-uLzwOTkMEZkTL7mpbyygKiOi/view?usp=drive_link">Resume</a>
                                     <br/>
-                                    <a href="https://drive.google.com/file/d/1si0rd0UocsjEK0nJMnKz0c3apg4vwNDK/view?usp=sharing">CV</a>         
+                                    <a href="https://drive.google.com/file/d/1amueyt8SOmRnLMw8rI0rxws68tJyBAeQ/view?usp=sharing">CV</a>         
                                 </div>                   
                             </Card>
                         </div>
