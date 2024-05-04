@@ -21,6 +21,28 @@ var data = {
                 year: "2024",
             },
             {
+                name: "The Deepest Level (Remake)",
+                past: "false",
+                type: "Game",
+                description: [
+                    "This project is an attempt at making a fully fledged action platformer game to put up for sale on an online marketplace. This title is meant to be a recreation of a past title of mine, \"The Deepest Level\" which I created for a past Ludum Dare game jam.",
+                    "Because this project uses licensed assets, a GitHub url is provided, however the repository is private. If you would like to see more information on this title, please contact me."
+                ],
+                images: [
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif1.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif2.gif",
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif3.gif"
+                ],
+                links: {
+                    github: "https://github.com/maxFischer42/DeepestLevelRe",
+                    itch: null,
+                    ld: null,
+                },                
+                imgW: "550px",
+                imgH: "300px",
+                year: "2020 - 2024",
+            },
+            {
                 name: "Untitled Tower Defense Game (working title)",
                 past: "false",
                 type: "Game",
@@ -132,7 +154,7 @@ var data = {
             },
             {
                 name: "2D Platforming Framework",
-                past: "false",
+                past: "true",
                 type: "Game",
                 description: [
                     "This 2D Platforming Framework is a learning experience that I have been working on over the last few years to understand what builds a \"good-feeling\" fast paced 2D platforming game.",
