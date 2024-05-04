@@ -29,10 +29,8 @@ var data = {
                     "Because this project uses licensed assets, a GitHub url is provided, however the repository is private. If you would like to see more information on this title, please contact me."
                 ],
                 images: [
-                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif1.gif",
-                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif2.gif",
-                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/a6f7e66b335e0556a61e48d7cffbf3f69c80c895/portfolio/imgs/platformer_gif3.gif"
-                ],
+                    "https://raw.githubusercontent.com/maxFischer42/maxFischer42.github.io/cae06e1f5e0eada3db47a1de214d58ca9a04f19d/portfolio/imgs/deepestlevelre_1.gif",
+                    ],
                 links: {
                     github: "https://github.com/maxFischer42/DeepestLevelRe",
                     itch: null,
@@ -40,7 +38,7 @@ var data = {
                 },                
                 imgW: "550px",
                 imgH: "300px",
-                year: "2020 - 2024",
+                year: "2024",
             },
             {
                 name: "Untitled Tower Defense Game (working title)",
